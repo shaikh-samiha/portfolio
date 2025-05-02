@@ -1,4 +1,4 @@
-/* Reset and base styles 
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@
     display: block;
   }
   
-  /* Header 
+  /* Header */
   header {
     display: flex;
     justify-content: space-between;
@@ -48,7 +48,7 @@
     cursor: pointer;
   }
   
-  /* Hero Section 
+  /* Hero Section */
   .hero {
     display: flex;
     justify-content: space-between;
@@ -158,7 +158,7 @@
     background-color: #c2185b;
   }
   
-  /* Footer 
+  /* Footer */
   footer {
     text-align: center;
     margin-top: 50px;
@@ -169,7 +169,7 @@
     color: #e91e63;
   }
   
-  /* Dark Mode 
+  /* Dark Mode */
   body.dark-mode {
     background-color: #121212;
     color: #f4f4f4;
