@@ -1,87 +1,89 @@
-
+/* Resetting default margins, paddings, and setting box-sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+/* Global body styles */
+body {
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
     color: #111;
     line-height: 1.6;
     padding: 20px;
     transition: background 0.4s, color 0.4s;
-  }
-  
-  img {
+}
+
+/* Ensure all images are responsive */
+img {
     max-width: 100%;
     display: block;
-  }
-  
-  /* Header */
-  header {
+}
+
+/* Header Styles */
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #111;
-  }
-  
-  header .logo img {
-    width: 50px;
+}
+
+header .logo img {
+    width: 50px; /* Adjust logo size */
     height: 50px;
-  }
-  
-  nav a {
+}
+
+nav a {
     color: #fff;
     margin: 0 15px;
     text-transform: uppercase;
     font-weight: bold;
-  }
-  
-  nav button {
+}
+
+nav button {
     background: none;
     border: none;
     color: #fff;
     font-size: 20px;
     cursor: pointer;
-  }
-  
-  /* Hero Section */
-  .hero {
+}
+
+/* Hero Section */
+.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 20px;
     background-color: #e91e63;
     color: #fff;
-  }
-  
-  .hero-text {
+}
+
+.hero-text {
     max-width: 50%;
-  }
-  
-  .hero h1 {
+}
+
+.hero h1 {
     font-size: 3rem;
     margin-bottom: 10px;
-  }
-  
-  .hero h2 {
+}
+
+.hero h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-  }
-  
-  .hero p {
+}
+
+.hero p {
     font-size: 1.2rem;
     margin-bottom: 20px;
-  }
-  
-  .hero-buttons {
+}
+
+.hero-buttons {
     margin-top: 20px;
-  }
-  
-  .hero-buttons .btn {
+}
+
+.hero-buttons .btn {
     background: #fff;
     color: #e91e63;
     padding: 12px 25px;
@@ -91,32 +93,32 @@
     text-transform: uppercase;
     text-decoration: none;
     transition: background 0.3s ease;
-  }
-  
-  .hero-buttons .btn:hover {
+}
+
+.hero-buttons .btn:hover {
     background-color: #fff;
     color: #c2185b;
-  }
-  
-  .hero-image img {
+}
+
+.hero-image img {
     border-radius: 50%;
     width: 250px;
     height: 250px;
     object-fit: cover;
-  }
-  
-   
-  .featured-projects {
+}
+
+/* Featured Projects */
+.featured-projects {
     margin-top: 50px;
     text-align: center;
-  }
-  
-  .featured-projects h2 {
+}
+
+.featured-projects h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-  }
-  
-  .project-card {
+}
+
+.project-card {
     display: inline-block;
     width: 45%;
     background-color: #f9f9f9;
@@ -124,84 +126,80 @@
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  .project-card img {
+}
+
+.project-card img {
     width: 100%;
     height: auto;
-  }
-  
-  .project-info {
+}
+
+.project-info {
     padding: 20px;
-  }
-  
-  .project-info h3 {
+}
+
+.project-info h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-  }
-  
-  .project-info p {
+}
+
+.project-info p {
     font-size: 1rem;
     margin-bottom: 20px;
-  }
-  
-  .project-info .btn {
+}
+
+.project-info .btn {
     background: #e91e63;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
     text-decoration: none;
-  }
-  
-  .project-info .btn:hover {
+}
+
+.project-info .btn:hover {
     background-color: #c2185b;
-  }
-  
-  /* Footer */
-  footer {
+}
+
+/* Footer */
+footer {
     text-align: center;
     margin-top: 50px;
     padding: 20px;
-  }
-  
-  footer a {
+}
+
+footer a {
     color: #e91e63;
-  }
-  
-  /* Dark Mode */
-  body.dark-mode {
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
     background-color: #121212;
     color: #f4f4f4;
-  }
-  
-  body.dark-mode header {
+}
+
+body.dark-mode header {
     background-color: #1e1e1e;
-  }
-  
-  body.dark-mode .hero {
+}
+
+body.dark-mode .hero {
     background-color: #c2185b;
-  }
-  
-  body.dark-mode .btn {
+}
+
+body.dark-mode .btn {
     background-color: #fff;
     color: #e91e63;
-  }
-  
-  body.dark-mode .project-card {
-    background-color: #1f1f1f;
-  }
-  
-  body.dark-mode .project-info {
-    color: #f4f4f4;
-  }
-  
+}
 
-  h1 {
+body.dark-mode .project-card {
+    background-color: #1f1f1f;
+}
+
+body.dark-mode .project-info {
+    color: #f4f4f4;
+}
+
+/* Specific styling for h1 */
+h1 {
     color: pink;
     font-weight: bold;
-  }
-
-
-
-  
+}
